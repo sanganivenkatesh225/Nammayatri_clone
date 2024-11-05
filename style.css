@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: "Inter";
+    
+}
+main{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+.BGIMG{
+    height: 43.8em;
+}
+nav{
+    position: absolute;
+     
+    height: 70px;
+    width:80%;
+    left: 8.5%;
+    top: 50px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 80px;
+    color: white;
+    
+}
+.l1{
+    display: flex;
+    padding: 5px;
+    color: white;
+    padding-top: 18px;
+    
+    font-weight: 600;
+    font-size: 19px;
+}
+.l1 img{
+    height: 64%;
+    width: 34px;
+    padding-right: 8px;
+    
+    
+}
+.l2{
+    list-style: none;
+    
+    color: white;
+}
+ul {
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 18px;
+    
+    font-weight: 600;
+    font-size: 19px;
+}
+ul li{
+    padding-right: 15px;
+}
+.scrollcontainer {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    overflow: hidden;
+    background: #333;
+    color: #fff;
+    white-space: nowrap;
+    box-sizing: border-box;
+    
+}
+.scrolltext{
+   
+    padding: 10px;
+    font-size: 20px;
+   
+}
+.book{
+    position: absolute;
+    top: 300px;
+    left:210px
+}
+.book h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+
+}
+.book h1+h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(225, 183, 56);
+
+}
+.book p{
+    font-size: 30px;
+    margin-top: 30px;
+    color: rgb(142, 148, 148);
+}
+.book p+p{
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 10px;top: -15px;
+    
+    color: rgb(142, 148, 148);
+}
+.book button{
+    padding: 10px 20px;
+    color: black;
+    background-color: rgb(225, 183, 56);
+    border-radius: 10px;
+    font-size: 1.3em;
+}
+.driver{
+    position: absolute;
+   
+    top:200px;
+    left: 53em;
+
+}
+.drivers img{
+    
+    position: relative;
+   
+}
+.page{
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    display: flex;
+    position: relative;
+    top: 17%;
+    left: 3.8%;
+    height: 450px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.you h1{
+    font-size: 55px;
+    
+
+}
+.hr{
+    background-color: rgb(255 183 56 );
+    opacity: 50%;
+    height: 0.625em;
+    width: 8em;
+    margin-bottom: 35px;
+    border-color: none;
+}
+
+
+.you{
+    padding-right: 65px;
+}
+.you p{
+    font-size: 27px;
+    margin-bottom: 25px;
+    color: rgb(142, 148, 148);
+}
+.button{
+    padding:12px 40px;
+    border-radius: 10px;
+    color:rgb(7, 6, 6);
+    background-color: #FFB738;
+    border-color: none;
+    font-size: 1.3em;
+}
+.img{
+    height:auto;
+    transform: scale(0.9);
+   
+
+    position: relative;
+   
+    left: -75px;
+   padding-left: 55px;
+
+    overflow: hidden;
+}
+.page4 div{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    top:17%;
+    height: 450PX;
+    width: 80%;
+    margin: auto;
+    left: 2.5%;
+   
+
+}
+.page4 > div > div:first-child{
+ 
+    display: block;
+    margin-right: 20px;
+} 
+.page4 h1{
+    font-size: 55px;
+    
+}
+.page4 p{
+    width: 80%;
+    height: 28%;
+    overflow: hidden;
+    font-size: 27px;
+    line-height: 2.2Rem;
+    margin-bottom: 5px;
+    color: rgb(142, 148, 148);
+    
+}.page4 > div > div+div{
+    height: 100%;
+    width: fit-content;
+    position: relative;
+    top: -28px;
+    left: -60px;
+    
+
+}
+.page3{
+    background-color: rgb(51, 51, 65);
+}
+.page3 h1{
+    color: white;
+}
+.page3 p{
+    line-height: 3.2rem;
+}
+.main3{
+height: 500px;
+}
+.main3 img{
+    transform: scale(0.8);
+
+}
+    
